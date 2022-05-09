@@ -1,0 +1,87 @@
+header {
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Secular One';
+    line-height: 1px;
+}
+
+body {
+    font-family: 'Secular One', sans-serif; /*inutil*/
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+#board {
+    text-align:center;
+    max-width: 350px;
+    margin: auto;
+}
+
+.box {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 1.5px 0px; /* aqui controla o espaço entre os quadradin */
+    justify-content: center;
+    border: 1px solid #bcbfc0;
+/*borda varia dependendo da linha*/
+    padding: 10px; /* aq n precisa mais mexer*/
+    padding-bottom: 22px;
+    padding-top: 0px;
+    font-family: 'Secular One';
+    font-size: 35px;
+    line-height: 0px;
+    
+}
+
+.noborder {
+    border: 0.5px solid white;
+}
+
+#keyboard {
+    text-align:center;
+    margin-top: 100px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.key {
+    display: inline-block;
+    height: 58px;
+    width: 44px;
+    padding-top: 15px;
+    border-radius: 4px; /*n mexe*/
+    margin: 3px 1.5px; /* n mexe*/
+    box-sizing: border-box;
+}
+
+
+.back-color-grey {
+    background-color: #787c7e;
+}
+
+.back-color-green {
+    background-color: #6aaa64;
+}
+
+.back-color-yellow {
+    background-color: #c9b458;
+}
+
+.back-color-wgrey {
+    background-color: #d3d6da;
+}
+
+.font-color-white {
+    color: rgb(250, 243, 243);
+}
+
+.colorwhite {
+    color: white;
+
+}
+
+
+
+
